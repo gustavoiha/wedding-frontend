@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx remix vite:build",
     "dev": "node ./server.js",
-    "start": "cross-env NODE_ENV=production node ./server.js"
+    "start": "cross-env NODE_ENV=production node ./build/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,8 @@
     "@types/react": "^19.1.4",
     "eslint": "^9.26.0",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vite-plugin-devtools-json": "^0.1.0",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
