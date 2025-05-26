@@ -8,13 +8,17 @@ export default function HeroHeader (): React.ReactElement {
 
         <span className="absolute top-0 left-0 w-full h-full bg-linear-to-b/oklch from-transparent to-stone-950 to-90%" />
 
-        <div className="absolute bottom-0 w-full pb-20">
-          <h1 className="text-4xl md:text-6xl">
+        <div className="absolute bottom-0 w-full pb-20 px-6 lg:px-0">
+          <h1 className="font-serif text-4xl md:text-6xl">
             Brayan & Gustavo
           </h1>
 
-          <p className="text-lg md:text-xl mt-8">
+          <p className="text-lg md:text-xl mt-16">
             Nos casamos! E vamos nos mudar para Lisboa!
+          </p>
+
+          <p className="text-lg md:text-xl mt-8 max-w-sm md:max-w-lg mx-auto">
+            Venha celebrar a nossa união e a nossa próxima aventura pela Guiana Brasileira
           </p>
         </div>
       </div>

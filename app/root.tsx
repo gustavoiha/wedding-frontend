@@ -33,8 +33,11 @@ export default function App() {
         <Links />
       </head>
 
-      <body className="h-full bg-stone-950 text-stone-50 font-serif tracking-wide whitespace-pre-line wrap-anywhere">
-        <Outlet />
+      <body className="h-full bg-stone-950 text-stone-50 font-sans tracking-wide whitespace-pre-line wrap-anywhere">
+        <main>
+          <Outlet />
+        </main>
+
         <ScrollRestoration />
         <Scripts />
       </body>

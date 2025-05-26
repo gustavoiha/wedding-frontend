@@ -23,6 +23,7 @@ export default defineConfig({
   },
   plugins: [
     remix({
+      ssr: false,
       ignoredRouteFiles: ["**/*.css"],
       future: {
         v3_singleFetch: true,
