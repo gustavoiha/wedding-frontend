@@ -15,7 +15,7 @@ export const links: LinksFunction = () => [
 export default function App() {
   return (
     <html
-      lang="en"
+      lang="pt"
       className="h-full"
     >
       <head>
